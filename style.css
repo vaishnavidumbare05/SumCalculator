@@ -1,0 +1,69 @@
+.app-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+    text-align: center;
+    margin:50px auto;
+}
+.app-container{
+width:400px;
+height:300px;
+background-color: rgb(236, 99, 172);
+margin:10px auto ;
+padding-top:0%;
+padding:5px auto;
+display:flex;
+flex-direction: column;
+justify-content:center;
+border-radius:20px; 
+}
+.app-container:hover{
+
+box-shadow:2px 2px 5px 10px rgb(239, 174, 227);
+}
+
+.operation-name{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+    text-align: center;
+    padding:0%;
+    margin: top 0;
+    margin:10px auto;
+
+}
+.input{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.input-box1{
+margin-left:40px;
+padding:4px;
+
+}
+.input-box2{
+margin-left:28px;
+padding:4px;
+
+}
+.button{
+display:flex;
+justify-content: space-evenly;
+}
+
+.btn-action{
+padding:8px 8px;
+border-radius:5px;
+background-color:grey;
+border:1px solid ;
+
+}
+.btn-action:hover{
+background-color:rgb(82, 192, 236);
+}
+.text-result{
+font-size:25px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+text-align: center;
+
+}
